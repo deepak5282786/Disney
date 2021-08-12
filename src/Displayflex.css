@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    background-color: burlywood;
+    /* display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+
+section div{
+    border: 2px solid black;
+    padding: 20px;
+    width: 380px;
+    /* flex-basis: 380px;  give more resposiveness */
+
+
+
+
+}
+
+.one{
+    background-color: chartreuse;
+    /* flex: 1; */
+}
+.two{
+    background-color: chocolate;
+    /* flex: 2; */
+
+    
+}
+
+.three{
+    background-color:green;
+    /* flex: 1; */
+
+}
+
+@media(min-width:768px){
+    section {display: flex;
+    justify-content: space-between;
+}
+
+}

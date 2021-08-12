@@ -1,0 +1,75 @@
+/* <==============-------------------------- Marvel--------------------------->> */
+ * {
+  box-sizing: border-box;
+}
+body{
+  background-color:#EFE3D0;
+}
+h1{
+  color:darkcyan;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.card-img{
+  text-align: center;
+}
+.card_category{
+  font-family: fantasy;
+  color: darkgreen;
+  font-size: 17px;
+}
+
+img{
+  width:30%;
+  height: auto;
+  padding: 20px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.card_title{
+  color: #5D8233;
+  font-family: fantasy;
+}
+
+.cards{
+
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  position: relative;
+  display: inline;
+  left: 400px;
+}
+
+img:hover{
+  box-shadow: 0px 30px 10px -7px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05,1.05);
+  color:cadetblue;
+}
+
+.btn {
+  background: #083757;
+  background-image: -webkit-linear-gradient(top, #083757, #10517a);
+  background-image: -moz-linear-gradient(top, #083757, #10517a);
+  background-image: -ms-linear-gradient(top, #083757, #10517a);
+  background-image: -o-linear-gradient(top, #083757, #10517a);
+  background-image: linear-gradient(to bottom, #083757, #10517a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #66f7df;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0cb3f0;
+  background-image: -webkit-linear-gradient(top, #0cb3f0, #3498db);
+  background-image: -moz-linear-gradient(top, #0cb3f0, #3498db);
+  background-image: -ms-linear-gradient(top, #7f9299, #3498db);
+  background-image: -o-linear-gradient(top, #0cb3f0, #3498db);
+  background-image: linear-gradient(to bottom, #0cb3f0, #3498db);
+  text-decoration: none;
+} 
